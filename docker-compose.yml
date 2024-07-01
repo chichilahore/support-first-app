@@ -1,0 +1,6 @@
+﻿services:
+  supportfirstapp:
+    image: supportfirstapp
+    build:
+      context: .
+      dockerfile: SupportFirstAPP/Dockerfile
